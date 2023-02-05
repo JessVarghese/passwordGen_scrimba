@@ -1,3 +1,29 @@
 body {
-    margin: 0;
+    margin: 0 auto;
+    width: 400px;
+    padding: 20px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+span {
+    color: #4ADF86;
+}
+
+button { 
+    padding: 7px;
+    margin: 7px;
+}
+
+#pass-one, #pass-two {
+    display: inline-block;
+    justify-content: space-evenly;
+    width: 180px;
+    height: 15px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 60px;
+    background-color: blueviolet;
+
 }
